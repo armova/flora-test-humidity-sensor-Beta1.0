@@ -27,9 +27,10 @@ void loop() {
    if (sensorValue <= (Hum - 10)){
      Serial.println("Alerta!");
      digitalWrite(led, HIGH);
-     delay(1000);
+     delay(1001);
      digitalWrite(led, LOW);
-     delay(1000);
+     delay(1001);
    } 
+
  
 }
